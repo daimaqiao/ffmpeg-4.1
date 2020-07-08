@@ -103,7 +103,6 @@ else
         --enable-static --disable-shared --disable-debug \
         --extra-cflags='-I${ffmpeg_exported_release_dir}/include' \
         --extra-ldflags='-L${ffmpeg_exported_release_dir}/lib -lm -ldl' \
-        --disable-ffplay --disable-ffprobe --disable-doc \
         --enable-postproc --enable-bzlib --enable-zlib --enable-parsers \
         --enable-libx264 --enable-libmp3lame --enable-libfdk-aac --enable-libspeex \
         --enable-pthreads --extra-libs=-lpthread \

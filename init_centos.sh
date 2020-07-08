@@ -8,6 +8,9 @@ sudo yum install -y speex-devel bzip2-devel zlib-devel
 
 sudo yum install -y epel-release
 
+# for ffplay
+sudo yum install -y SDL2-devel
+
 ## curl https://www.nasm.us/nasm.repo
 cat << EOF | sudo tee /etc/yum.repos.d/nasm.repo
 [nasm]
